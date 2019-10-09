@@ -15,14 +15,14 @@ echo "Sum = $sum <br><br>";
 function sub($x,$y)    
 {  
 $sub=$x-$y;  
-echo "Diff = $sub <br><br>";  
+echo "Difference = $sub <br><br>";  
 }
 
   
 function mul($x,$y)    
 {  
 $mul=$x*$y;  
-echo "mul = $mul <br><br>";  
+echo "multiply = $mul <br><br>";  
 } 
 function div($x,$y)    
 {  
@@ -34,7 +34,7 @@ else
 {
 $div=$y/$x;
 }
-echo "div = $div <br><br>";  
+echo "divide = $div <br><br>";  
 } 
 if(isset($_POST['add']))
 {
